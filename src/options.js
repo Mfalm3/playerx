@@ -33,7 +33,7 @@ export const options = {
       jsUrl: '{{npmCdn}}/{{pkg}}@{{version}}/+esm',
     },
     vimeo: {
-      pattern: /vimeo\.com\/(?:video\/)?(\d+)/,
+      pattern: /vimeo\.com\/(?:video\/)?(\d+)(?:\?h=([a-zA-Z0-9]+))?/,
       type: 'vimeo-video',
       pkg: 'vimeo-video-element',
       version: '1.0',
